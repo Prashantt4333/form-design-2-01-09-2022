@@ -1,0 +1,20 @@
+body{
+    background-color: #C2BDBA;
+}
+/* element selector*/
+form{
+    width: 520px;
+    height:520px;
+    background-color: #1F2E39;
+    margin: 30px auto;
+    padding: 40px;
+   
+}
+form > button{
+    height: 50px;
+    width: 49%;
+    border: none;
+}
+form > button.SignUp{
+    background-color: #1AB188;
+}
