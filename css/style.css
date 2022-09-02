@@ -1,5 +1,6 @@
 body{
     background-color: #C2BDBA;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* element selector*/
 form{
@@ -8,13 +9,52 @@ form{
     background-color: #1F2E39;
     margin: 30px auto;
     padding: 40px;
+    
    
 }
 form > button{
     height: 50px;
     width: 49%;
     border: none;
+    font-weight: bold;
+   
 }
-form > button.SignUp{
+
+form > .SignUp{
     background-color: #1AB188;
+    color: #fff;
+}
+form > button.Login{
+    background-color: #7B848B;
+    color: #fff;
+}
+form > h1{
+    color: #fff;
+    text-align: center;
+    
+}
+form > div > input{
+    width: 46%;
+    height:32px;
+    background-color: transparent;
+    border: 1px solid #C2BDBA;
+    font-size: 1em;
+    padding-left: 11px;
+    margin-top: 20px;
+    
+}
+input.email{
+    width: 96%;
+    margin-top: 50px;
+}
+input.password{
+    width: 96%;
+    margin-top: 50px;
+}
+input.SignUp{
+    width: 99%;
+    height: 45px;
+    border: none;
+    font-size: 2em;
+    margin-top: 50px;
 }
