@@ -10,6 +10,7 @@ form{
     margin: 30px auto;
     padding: 40px;
     
+    
    
 }
 form > button{
@@ -41,6 +42,7 @@ form > div > input{
     font-size: 1em;
     padding-left: 11px;
     margin-top: 20px;
+    color: #fff;
     
 }
 input.email{
